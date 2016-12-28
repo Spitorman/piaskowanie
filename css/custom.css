@@ -1,19 +1,12 @@
-.jumbotron {
-    text-align: center;
-    height: 100px;
-    padding: 5px;
-    margin-top: 40px;
-}
+
 .navbar-default {
    
-    background-color: gainsboro;
-    border-color: #FFFFFF;   
     color: #000;
-
+    
     
     
 }
-.navbar-default .na30ar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
     background-color: #0B9BE1;
 }
@@ -48,8 +41,46 @@ kolor linków
     background-color: #FC6432;
     
 }
+
+/*
+podświetlenie linków
+*/
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #FC6432;
     background-color: transparent;
+}
+.jumbotron {
+margin: 0px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.header {
+    background-image: url("../img/piask.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
 }
