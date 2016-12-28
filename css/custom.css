@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Exo', sans-serif;
+}
 .navbar-default {
    
     color: #000;
