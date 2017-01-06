@@ -8,6 +8,15 @@ body {
     
     
 }
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
+    margin-top: -50px;
+}
+.parallax-window2 {
+    min-height: 400px;
+    background: transparent;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
     background-color: #0B9BE1;
@@ -86,7 +95,7 @@ margin: 0px;
     text-align: center;
     padding: 15px;
     height: auto;
-    background-color: #eee;
+    background-color: transparent;
     
 }
 
