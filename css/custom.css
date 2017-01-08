@@ -1,6 +1,10 @@
-body {
+html, body {
     font-family: 'Exo', sans-serif;
+    position:relative;
+    min-height: 100vh;
 }
+
+
 .navbar-default {
    
     color: #000;
@@ -91,6 +95,11 @@ margin: 0px;
     padding: 15px;
     height: auto;
 }
+.zawar {
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
 .last {
     text-align: center;
     padding: 15px;
@@ -102,9 +111,10 @@ margin: 0px;
 .kontakt {
     height: auto;
     width: 100%;
-    padding: 25px;
+    padding: 25px 25px 125px 25px;
     background-color: #fff;
     font-size: 18px;
+    
 }
 
 
@@ -114,9 +124,12 @@ margin: 0px;
 }
 .footer {
     height: 100px;
+    width: 100%;
     padding: 15px;
     background-color: #152836;
     color: white;
+    position: absolute;
+    bottom: 0;
 }
 .dol {
     vertical-align: bottom;
